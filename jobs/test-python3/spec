@@ -1,0 +1,11 @@
+---
+name: test-python3
+
+templates:
+  bin/ctl.erb: bin/ctl
+  www/index.html: www/index.html
+
+packages:
+- python3
+
+properties: {}
