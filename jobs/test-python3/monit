@@ -1,0 +1,5 @@
+check process test-python3
+  with pidfile /var/vcap/sys/run/test-python3/pid
+  start program "/var/vcap/jobs/test-python3/bin/ctl start"
+  stop program "/var/vcap/jobs/test-python3/bin/ctl stop"
+  group vcap
