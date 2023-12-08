@@ -12,8 +12,15 @@ For vendoring python3 to BOSH releases
     bosh upload-blobs
     ```
 
-    You will likely need to use `aws-vault` to provide credentials in your shell to upload the blob to the blobstore.
+    You will likely need to use `aws-vault` to provide credentials in your shell to upload the blobs to the blobstore.
 1. Update the `packages/python3` files to reference the new Python version
+1. Create the new final release:
+
+    ```shell
+    bosh create-release --final
+    ```
+
+    You will likely need to use `aws-vault` to provide credentials in your shell to upload the packages to the blobstore.
 
 ## test-python3 job
 
