@@ -1,0 +1,21 @@
+name: python3
+version: "3"
+commit_hash: 513eae1
+uncommitted_changes: false
+jobs:
+- name: test-python3
+  version: 90694e765c8cfd8325d300d53f5c90fdd412af485d7279998a02c3de9a101eec
+  fingerprint: 90694e765c8cfd8325d300d53f5c90fdd412af485d7279998a02c3de9a101eec
+  sha1: sha256:2c63a3e5cce904bb1fff03d5e272aaa94c57ae35b52156cdbf0bdcab7da50555
+  packages:
+  - python3
+packages:
+- name: python3
+  version: d78bf398650395bfe7448c2c241285b5da572664892fa324b222044679cd350c
+  fingerprint: d78bf398650395bfe7448c2c241285b5da572664892fa324b222044679cd350c
+  sha1: sha256:a422228c28ea13a85b03233cab8c6a62107dbe0d77bc2f6f44f48090905cf0f4
+  dependencies: []
+license:
+  version: 17f79c5a5fca4cfbe2a8b8fe2cb622e09588a4297851ccb49cd2b0864387f64b
+  fingerprint: 17f79c5a5fca4cfbe2a8b8fe2cb622e09588a4297851ccb49cd2b0864387f64b
+  sha1: sha256:90b96dbe546b8e03d9633f54630d1bd20782116985b04300bf638d0b1e610957

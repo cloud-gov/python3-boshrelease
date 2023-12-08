@@ -3,8 +3,8 @@
 set -e -x
 
 apt install -y libffi-dev
-tar xzf Python-3.7.*.tgz
-pushd Python-3.7.*/
+tar xzf Python-3.12.*.tgz
+pushd Python-3.12.*/
 	./configure --prefix=${BOSH_INSTALL_TARGET}
 
 	make
